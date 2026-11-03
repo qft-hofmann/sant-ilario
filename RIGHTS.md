@@ -36,10 +36,6 @@ beansprucht. Die Nichtkommerziell-Bedingung der neuen Beiträge schränkt die
 Nutzung des gemeinfreien Textes nicht ein. Die Rechtslage kann in anderen
 Ländern abweichen. Gesetzlich erlaubte Nutzungen bleiben unberührt.
 
-Der Satz „Alle Rechte einschliesslich des Übersetzungsrechts vorbehalten.“
-auf der Rückseite des Titelblatts wird als Bestandteil der Originalausgabe
-von 1897 wiedergegeben und ist keine neue Rechtebehauptung.
-
 ## Eingebettete Schriften
 
 Die PDFs enthalten eingebettete Schriftausschnitte. Es werden keine separaten

@@ -55,8 +55,7 @@ Nichtkommerzielle Weitergabe und Bearbeitung sind mit Namensnennung,
 Lizenzhinweis und Kennzeichnung von Änderungen erlaubt.
 
 Hausdorffs Originaltext ist in Deutschland gemeinfrei. Die Lizenz schränkt
-dessen Nutzung nicht ein. Der im Buch wiedergegebene Rechtevermerk von 1897
-ist ein historisches Zitat. Eingebettete Schriften behalten ihre eigenen
+dessen Nutzung nicht ein. Eingebettete Schriften behalten ihre eigenen
 Lizenzen. Näheres steht in den [Rechte- und Schrifthinweisen](RIGHTS.md);
 der vollständige CC-Lizenztext liegt in [LICENSE](LICENSE).
 
