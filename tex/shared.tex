@@ -1,0 +1,88 @@
+% Common semantic layout; profiles/<edition>.tex supplies fonts, geometry and body size.
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\input{profiles/\Edition.tex}
+\usepackage[greek,german]{babel}
+\languageattribute{greek}{polutoniko}
+\usepackage{microtype}
+\usepackage{needspace,array,fancyhdr,emptypage,multicol}
+\usepackage[unicode,hidelinks,linktoc=all,bookmarksopen=false,bookmarksdepth=2]{hyperref}
+\hypersetup{pdftitle={Sant’Ilario. Gedanken aus der Landschaft Zarathustras},pdfauthor={Paul Mongré (Felix Hausdorff)},pdfsubject={Digitale Leseausgabe nach Leipzig 1897; mit Register; Ausgabe 2026}}
+\newif\ifEditorialItalics
+\input{settings.tex}
+% Editorial foreign-language styling is independent of source emphasis and math.
+\newcommand{\Foreign}[1]{\ifEditorialItalics\textit{#1}\else#1\fi}
+\newcommand{\Sperr}[1]{{\addfontfeatures{LetterSpace=9,Ligatures=NoCommon}#1}}
+\newcommand{\Greek}[1]{{\greekfont\foreignlanguage{greek}{#1}}}
+\newcommand{\Math}[1]{\(#1\)}
+\newcommand{\Dots}[1]{\nobreak\hspace{.12em}\mbox{\count255=0\loop\ifnum\count255<#1\advance\count255 by1 .\ifnum\count255<#1\kern.16em\fi\repeat}}
+\pdfstringdefDisableCommands{\def\Sperr#1{#1}\def\Greek#1{#1}\def\Foreign#1{#1}\def\textbf#1{#1}\def\textit#1{#1}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+% Sub-point rounding in expanded/letterspaced fonts is below optical protrusion.
+\hfuzz=.2pt
+\tolerance=1800
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=5000
+\raggedbottom
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\ifhistorical
+  \fancyhead[C]{\small —\enspace\thepage\enspace —}
+\else
+  \fancyfoot[C]{\small\thepage}
+\fi
+\pagestyle{fancy}
+\fancypagestyle{plain}{\fancyhf{}\ifhistorical\fancyhead[C]{\small —\enspace\thepage\enspace —}\else\fancyfoot[C]{\small\thepage}\fi}
+\newcommand{\BookTitle}[3]{%
+  \frontmatter\thispagestyle{empty}\pdfbookmark[0]{Sant’Ilario}{title}%
+  \vspace*{.22\textheight}
+  \begin{center}
+    {\fontsize{35}{40}\selectfont #1\par}\vspace{1.5em}
+    {\large #2\par}\vspace{2.8em}
+    {\Large #3\par}
+  \end{center}\vfill\clearpage}
+\newcommand{\PrefaceStart}{\cleardoublepage\pdfbookmark[0]{Vorrede}{preface}\vspace*{2\baselineskip}\begin{center}\Large Vorrede.\end{center}\vspace{\baselineskip}}
+\newcommand{\PrefaceSection}[2]{\par\Needspace{5\baselineskip}\vspace{1.2\baselineskip}\phantomsection\label{src:#1}\begin{center}#2.\end{center}\nopagebreak\vspace{.25\baselineskip}}
+\newcommand{\Aphorism}[2]{\par\addvspace{1.8\baselineskip}\Needspace{5\baselineskip}\phantomsection\label{src:#1}\pdfbookmark[1]{#2}{aph-#2}\begin{center}#2.\end{center}\nopagebreak\vspace{.2\baselineskip}\nopagebreak}
+\newcommand{\BookPart}[3]{%
+  \cleardoublepage\thispagestyle{empty}\phantomsection\label{src:#1}%
+  \addcontentsline{toc}{chapter}{#2}%
+  \vspace*{.27\textheight}
+  \begin{center}{\LARGE #2\par}\end{center}
+  \vspace{2\baselineskip}
+  \noindent\hfill\begin{minipage}{.79\textwidth}
+  \small\setlength{\parindent}{0pt}\setlength{\parskip}{.7em}\raggedright #3
+  \end{minipage}\vfill\cleardoublepage}
+\newcommand{\PoemStart}[2]{\clearpage\phantomsection\label{src:#1}\pdfbookmark[1]{#2}{poem-#1}\vspace*{2\baselineskip}\begin{center}\large\bfseries #2\end{center}\nopagebreak}
+\newcommand{\PoemSubtitle}[1]{{\centering\small #1\par}\nobreak\smallskip}
+\newcommand{\PoemEnd}{\par\vspace{\baselineskip}\begin{center}\rule{12mm}{.3pt}\end{center}}
+% Every verse line is one paragraph; only wrapped continuations hang inward.
+% Stanzas keep together whenever they fit; no fixed-size text boxes or scaling.
+\newenvironment{BookVerse}{\par\begingroup\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}\leftskip=.5em\rightskip=0pt plus 1fil\hyphenpenalty=10000\interlinepenalty=10000\smallskip}{\par\endgroup\smallskip}
+\newcommand{\VerseLine}[2]{\noindent\hangindent=2em\hangafter=1\hspace*{#1em}#2\par\nopagebreak[4]}
+\newcommand{\Stanza}{\par\penalty0\vspace{.65\baselineskip}\Needspace{3\baselineskip}}
+\newcommand{\EditorialNotes}{\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{Editorische Hinweise}\vspace*{2\baselineskip}\begin{center}\Large Editorische Hinweise\end{center}\vspace{\baselineskip}}
+\newcommand{\EditorialHeading}[1]{\par\Needspace{5\baselineskip}\vspace{\baselineskip}\noindent\textbf{#1}\par\nobreak\smallskip\noindent}
+\newcommand{\BookIndex}{\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{Register}\vspace*{2\baselineskip}\begin{center}\Large Register\end{center}\vspace{\baselineskip}}
+\newcommand{\IndexHeading}[1]{\par\Needspace{8\baselineskip}\vspace{\baselineskip}\noindent\textbf{#1}\par\nobreak}
+\newenvironment{BookIndexColumns}{\begin{multicols}{2}\small\raggedright\raggedcolumns\setlength{\parindent}{0pt}\setlength{\parskip}{.3em}}{\end{multicols}}
+% Keep the headword with all its locators, even at page/column boundaries.
+\newcommand{\IndexEntry}[2]{\par\begingroup\interlinepenalty=10000\hangindent=1em\hangafter=1 #1:\enspace #2\par\endgroup}
+\newenvironment{LetterGrid}{\par\Needspace{15\baselineskip}\begin{center}\setlength{\tabcolsep}{0pt}\renewcommand{\arraystretch}{1.15}\begin{tabular}{|*{12}{>{\centering\arraybackslash}m{1.55em}|}}\hline}{\end{tabular}\end{center}\par}
+\addto\captionsgerman{\renewcommand{\contentsname}{Inhalt}}
+\setcounter{tocdepth}{0}
+\makeatletter
+\renewcommand*{\@pnumwidth}{2.5em}
+\renewcommand*{\@tocrmarg}{3em}
+\renewcommand*{\l@chapter}[2]{\vspace{.6em}\@dottedtocline{0}{0pt}{0pt}{#1}{#2}}
+\newcommand{\BookContents}{\cleardoublepage\pdfbookmark[0]{Inhalt}{contents}\vspace*{2\baselineskip}\begin{center}\Large Inhalt\end{center}\vspace{2\baselineskip}\@starttoc{toc}}
+\makeatother
+% Historical spelling: giebt is monosyllabic despite modern hyphenation patterns.
+% Keep all editorial hyphenation exceptions in this shared list.
+\AtBeginDocument{\BodySize\selectlanguage{german}\hyphenation{giebt}}

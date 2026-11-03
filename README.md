@@ -4,70 +4,84 @@
 
 Paul Mongré (Felix Hausdorff)
 
-Eine digitale Leseausgabe des 1897 bei C. G. Naumann in Leipzig erschienenen
-Buches. Neusetzung und editorische Ergänzungen: **Arne Hofmann**.
+A digital reading edition of the book first published by C. G. Naumann in
+Leipzig in 1897. Typesetting and editorial additions by **Arne Hofmann**.
 
-## Lesen und herunterladen
+The book and its editorial notes are in German. Project information, build
+instructions and licensing documentation are in English.
 
-Die drei Fassungen enthalten denselben Text, dasselbe Register und dieselben
-editorischen Hinweise. Sie unterscheiden sich in Schrift und Seitenformat.
+## Read and download
 
-| Ausgabe | Format | Schrift | PDF |
+The three editions contain the same text, index and editorial notes. They
+differ in typeface and page format.
+
+| Edition | Page format | Typeface | PDF |
 | --- | --- | --- | --- |
-| Kompakte Leseausgabe | A5 · 148 × 210 mm | Cormorant Garamond | [A5-Ausgabe](pdf/sant-ilario-a5.pdf) |
-| Größere Leseausgabe | 176 × 250 mm | Libertinus | [Große Ausgabe](pdf/sant-ilario-large.pdf) |
-| Historisch angelehnte Ausgabe | 158 × 241 mm | Old Standard | [Historische Gestaltung](pdf/sant-ilario-historical.pdf) |
+| Compact reading edition | A5 · 148 × 210 mm | Cormorant Garamond | [A5 edition](pdf/sant-ilario-a5.pdf) |
+| Larger reading edition | 176 × 250 mm | Libertinus | [Larger edition](pdf/sant-ilario-large.pdf) |
+| Historically inspired edition | 158 × 241 mm | Old Standard | [Historical layout](pdf/sant-ilario-historical.pdf) |
 
-Für den Einstieg empfiehlt sich die A5-Ausgabe; die größere Fassung bietet
-eine größere Leseschrift. Alle PDFs sind durchsuchbar und haben Lesezeichen,
-ein verlinktes Inhaltsverzeichnis und ein verlinktes Register.
+The A5 edition is a good starting point; the larger edition uses a larger
+reading font. All PDFs are searchable and include bookmarks, a linked table
+of contents and a linked index.
 
-## Zur Ausgabe
+## About this edition
 
-Enthalten sind die Vorrede, sämtliche **411 Aphorismen** und **26 Gedichte**.
-Historische Rechtschreibung und Sperrsatz sind beibehalten. Der Text ist neu
-gesetzt; Zeilen- und Seitenumbrüche stimmen deshalb nicht mit der Ausgabe von
-1897 überein. Auch die historisch angelehnte Fassung ist eine Neusetzung.
+The edition includes the preface, all **411 aphorisms** and **26 poems**.
+Historical spelling and letterspaced emphasis (*Sperrsatz*) are preserved.
+The text has been typeset anew, so line and page breaks differ from those in
+the 1897 edition. The historically inspired layout is also a new typesetting.
 
-Die Kursivierung fremdsprachiger Wörter und Wendungen ist eine editorische
-Ergänzung. Weitere Entscheidungen werden in den **Editorischen Hinweisen** am
-Ende des Buches erläutert. Die versehentliche Nummer „124“ zwischen den
-Aphorismen 223 und 225 wurde zu 224 berichtigt.
+Italics for foreign words and phrases are an editorial addition. These and
+other choices are explained in the German **Editorische Hinweise** at the
+back of the book. The mistaken number “124” between aphorisms 223 and 225
+has been corrected to 224.
 
-Das Register erschließt 370 ausgewählte Personen, Gestalten, Begriffe und kurze
-fremdsprachige Wendungen. Seine Zahlen verweisen auf **Aphorismen**, nicht auf
-Seiten. Vorrede, Leitsprüche und Gedichte sind eigens bezeichnet.
+The index covers 370 selected people, figures, concepts and short foreign
+expressions. Its numbers refer to **aphorisms**, not pages. References to
+the preface, epigraphs and poems are identified separately.
 
-Diese Leseausgabe ist keine historisch-kritische Edition. Verbliebene
-Übertragungsfehler sind möglich. Korrekturhinweise sind als GitHub-Issue
-willkommen; bitte die Aphorismusnummer beziehungsweise den Gedichttitel, die
-betroffene Stelle und den Korrekturvorschlag angeben.
+## Status and corrections
 
-**Erste digitale Ausgabe: 3. November 2026.**
+**First digital edition: 3 November 2026.**
 
-## Lizenz
+This is a reading edition, not a historical-critical edition. Transcription
+errors may remain. Corrections are welcome as GitHub issues: please include
+the aphorism number or poem title, the affected passage and the proposed
+correction.
 
-© 2026 Arne Hofmann für die neuen editorischen Beiträge, soweit sie
-urheberrechtlich geschützt sind. Diese Beiträge und die Dokumentation stehen
-unter **[Creative Commons Namensnennung – Nicht kommerziell 4.0 International
-(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.de)**.
-Nichtkommerzielle Weitergabe und Bearbeitung sind mit Namensnennung,
-Lizenzhinweis und Kennzeichnung von Änderungen erlaubt.
+## TeX sources
 
-Hausdorffs Originaltext ist in Deutschland gemeinfrei. Die Lizenz schränkt
-dessen Nutzung nicht ein. Eingebettete Schriften behalten ihre eigenen
-Lizenzen. Näheres steht in den [Rechte- und Schrifthinweisen](RIGHTS.md);
-der vollständige CC-Lizenztext liegt in [LICENSE](LICENSE).
+The editable [TeX sources](tex/) are included for all three editions. See the
+[build and editing instructions](tex/README.md) for dependencies, commands,
+layout settings and the switch for editorial italics. Building requires
+LuaLaTeX and the listed fonts; it does not require the original scan or any
+OCR service.
 
-Als Quellenangabe für diese Neusetzung eignet sich:
+## License
 
-> Paul Mongré (Felix Hausdorff): *Sant’ Ilario. Gedanken aus der Landschaft
-> Zarathustras*. Leipzig: C. G. Naumann, 1897. Digitale Leseausgabe mit
-> Neusetzung und editorischen Ergänzungen von Arne Hofmann, 2026.
+© 2026 Arne Hofmann for the new editorial contributions, to the extent that
+they are protected by copyright. These contributions, the new typesetting
+source contributions and the documentation are licensed under
+**[Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.en)**.
+Noncommercial sharing and adaptation are permitted with attribution, a
+license notice and an indication of changes, subject to the license terms.
 
-## Zum Autor
+Hausdorff’s original text is in the public domain in Germany; this license
+does not restrict its use. Embedded fonts retain their own licenses. See
+the [rights and font notices](RIGHTS.md) for details and [LICENSE](LICENSE)
+for the complete CC license text.
 
-Felix Hausdorff (1868–1942) veröffentlichte seine literarischen und
-philosophischen Werke unter dem Pseudonym Paul Mongré. Die Universität Bonn
-bietet eine [Einführung zu Leben und Werk](https://www.mathematics.uni-bonn.de/hcm/felix-hausdorff/about-felix-hausdorff)
-und ein [Schriftenverzeichnis](https://www.mathematics.uni-bonn.de/hcm/felix-hausdorff/schriftenverzeichnis).
+A suggested citation for this typesetting is:
+
+> Paul Mongré (Felix Hausdorff), *Sant’ Ilario. Gedanken aus der Landschaft
+> Zarathustras*. Leipzig: C. G. Naumann, 1897. Digital reading edition,
+> typesetting and editorial additions by Arne Hofmann, 2026.
+
+## About the author
+
+Felix Hausdorff (1868–1942) published his literary and philosophical works
+under the pseudonym Paul Mongré. The University of Bonn provides an
+[introduction to his life and work](https://www.mathematics.uni-bonn.de/hcm/felix-hausdorff/about-felix-hausdorff)
+and a [bibliography](https://www.mathematics.uni-bonn.de/hcm/felix-hausdorff/schriftenverzeichnis).

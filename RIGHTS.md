@@ -1,58 +1,61 @@
-# Rechte und Schriften
+# Rights and font notices
 
-## Neue editorische Beiträge
+## New editorial and typesetting contributions
 
 © 2026 Arne Hofmann.
 
-Die Dokumentation und die neuen editorischen Beiträge dieser digitalen
-Leseausgabe, einschließlich der editorischen Hinweise und der Auswahl und
-Anordnung des Registers, stehen, soweit dafür Urheberrechte bestehen, unter
-der **Creative Commons Attribution-NonCommercial 4.0 International
-(CC BY-NC 4.0)**. Für die Gestaltung gilt dies ebenfalls nur insoweit, als
-daran eigenständige Rechte bestehen.
+The documentation and new editorial contributions to this digital reading
+edition, including the editorial notes and the selection and arrangement
+of the index, are licensed under **Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** to the extent
+that copyright subsists in them. The same applies to the new typesetting
+source contributions and page design only to the extent that they attract
+independent protection.
 
-Die Lizenz erlaubt nichtkommerzielle Weitergabe und Bearbeitung unter ihren
-Bedingungen. Als Urheber der neuen Beiträge ist Arne Hofmann zu nennen;
-Lizenzhinweise sind beizubehalten und Änderungen kenntlich zu machen. Bei
-Weitergabe ist nach Möglichkeit auch die Adresse des GitHub-Repositoriums
-dieser Ausgabe anzugeben. Es gelten der [vollständige Lizenztext](LICENSE)
-und die darin enthaltenen Haftungs- und Gewährleistungsausschlüsse.
+The license permits noncommercial sharing and adaptation under its terms.
+Credit Arne Hofmann for the new contributions, retain license notices and
+indicate any changes. When sharing, include the address of this edition’s
+GitHub repository where reasonably practicable. The [full license](LICENSE)
+applies, including its disclaimer of warranties and limitation of liability.
 
-Die folgende Abgrenzung beschreibt den Umfang der lizenzierten Beiträge;
-sie verändert den CC-Lizenztext nicht.
+The following distinctions explain the scope of the licensed contributions;
+they do not modify the CC license text.
 
-## Originaltext von 1897
+## Original text of 1897
 
-Paul Mongré ist das Pseudonym von Felix Hausdorff (1868–1942). Sein Originaltext
-ist in Deutschland seit dem 1. Januar 2013 gemeinfrei: Nach
-[§ 64 UrhG](https://www.gesetze-im-internet.de/urhg/__64.html) beträgt die
-Schutzfrist 70 Jahre nach dem Tod des Urhebers; die Berechnung erfolgt nach
-[§ 69 UrhG](https://www.gesetze-im-internet.de/urhg/__69.html) zum Jahresende.
-Die [Universitäts- und Landesbibliothek Bonn](https://www.sammlungen.ulb.uni-bonn.de/de/historische-sammlungen/nachlaesse/hausdorff-felix)
-dokumentiert Lebensdaten und Pseudonym.
+Paul Mongré is the pseudonym of Felix Hausdorff (1868–1942). His original
+text has been in the public domain in Germany since 1 January 2013:
+[section 64 of the German Copyright Act](https://www.gesetze-im-internet.de/urhg/__64.html)
+sets a term of 70 years after the author’s death, calculated from the end
+of the calendar year under
+[section 69](https://www.gesetze-im-internet.de/urhg/__69.html).
+The [University and State Library of Bonn](https://www.sammlungen.ulb.uni-bonn.de/de/historische-sammlungen/nachlaesse/hausdorff-felix)
+documents his life dates and pseudonym.
 
-Auf den gemeinfreien Originaltext werden keine neuen ausschließlichen Rechte
-beansprucht. Die Nichtkommerziell-Bedingung der neuen Beiträge schränkt die
-Nutzung des gemeinfreien Textes nicht ein. Die Rechtslage kann in anderen
-Ländern abweichen. Gesetzlich erlaubte Nutzungen bleiben unberührt.
+No new exclusive rights are claimed over the public-domain original text,
+including its transcription in the TeX files. The NonCommercial condition
+on the new contributions does not restrict use of that public-domain text.
+The legal position may differ in other countries. Uses permitted by law
+remain unaffected.
 
-## Eingebettete Schriften
+## Embedded fonts
 
-Die PDFs enthalten eingebettete Schriftausschnitte. Es werden keine separaten
-Schriftdateien mitgeliefert. Schriftsoftware ist nicht Gegenstand der
-CC-BY-NC-Lizenz dieser Ausgabe und behält ihre jeweilige Lizenz.
+The PDFs contain embedded font subsets. No separate font files are included.
+Font software is outside the scope of this edition’s CC BY-NC license and
+retains its respective license. Rebuilding the TeX sources requires the
+fonts listed below to be installed separately.
 
-| Schrift | Urheber / Projekt | Lizenz |
+| Font | Creator / project | License |
 | --- | --- | --- |
-| Cormorant Garamond | Christian Thalmann und die Cormorant Project Authors | [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/) |
-| EB Garamond | EB Garamond Project Authors; Georg Mayr-Duffner und Octavio Pardo | SIL Open Font License 1.1 |
-| Garamond Math | Yuansheng Zhao und Mitwirkende | SIL Open Font License 1.1 |
-| Libertinus Serif und Libertinus Math | Libertinus Project Authors | SIL Open Font License 1.1 |
-| Old Standard | Alexey Kryukov, Robert Alessi und Antonis Tsolomitis | SIL Open Font License 1.1 |
+| Cormorant Garamond | Christian Thalmann and the Cormorant Project Authors | [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/) |
+| EB Garamond | EB Garamond Project Authors; Georg Mayr-Duffner and Octavio Pardo | SIL Open Font License 1.1 |
+| Garamond Math | Yuansheng Zhao and contributors | SIL Open Font License 1.1 |
+| Libertinus Serif and Libertinus Math | Libertinus Project Authors | SIL Open Font License 1.1 |
+| Old Standard | Alexey Kryukov, Robert Alessi and Antonis Tsolomitis | SIL Open Font License 1.1 |
 | Old Standard Math | Antonis Tsolomitis | [GUST Font License](https://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt) |
-| Latin Modern Mono | Bogusław Jackowski und Janusz M. Nowacki | GUST Font License |
+| Latin Modern Mono | Bogusław Jackowski and Janusz M. Nowacki | GUST Font License |
 
-Die Projektseiten enthalten weitere Urheber- und Lizenzangaben:
+The project pages provide further copyright and license information:
 [Cormorant](https://github.com/CatharsisFonts/Cormorant),
 [EB Garamond](https://github.com/octaviopardo/EBGaramond12),
 [Garamond Math](https://github.com/YuanshengZhao/Garamond-Math),

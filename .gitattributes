@@ -1,4 +1,6 @@
 * text=auto
 *.md text eol=lf
+# Blank lines in TeX terminate paragraphs, including at section-file endings.
+*.tex text eol=lf whitespace=-blank-at-eof
 LICENSE text eol=lf whitespace=-blank-at-eof
 *.pdf binary

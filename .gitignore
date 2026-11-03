@@ -10,3 +10,16 @@
 !/pdf/sant-ilario-a5.pdf
 !/pdf/sant-ilario-large.pdf
 !/pdf/sant-ilario-historical.pdf
+!/tex/
+/tex/*
+!/tex/*.tex
+!/tex/README.md
+!/tex/profiles/
+/tex/profiles/*
+!/tex/profiles/*.tex
+!/tex/source/
+/tex/source/*
+!/tex/source/content.tex
+!/tex/source/sections/
+/tex/source/sections/*
+!/tex/source/sections/*.tex
