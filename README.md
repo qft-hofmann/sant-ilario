@@ -46,9 +46,10 @@ the preface, epigraphs and poems are identified separately.
 **First digital edition: 3 November 2026.**
 
 This is a reading edition, not a historical-critical edition. Transcription
-errors may remain. Corrections are welcome as GitHub issues: please include
-the aphorism number or poem title, the affected passage and the proposed
-correction.
+errors may remain. Corrections are welcome as
+[GitHub issues](https://github.com/qft-hofmann/sant-ilario/issues): please
+include the aphorism number or poem title, the affected passage and the
+proposed correction.
 
 ## TeX sources
 

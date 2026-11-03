@@ -14,8 +14,9 @@ independent protection.
 
 The license permits noncommercial sharing and adaptation under its terms.
 Credit Arne Hofmann for the new contributions, retain license notices and
-indicate any changes. When sharing, include the address of this edition’s
-GitHub repository where reasonably practicable. The [full license](LICENSE)
+indicate any changes. When sharing, include the address of
+[this edition’s GitHub repository](https://github.com/qft-hofmann/sant-ilario)
+where reasonably practicable. The [full license](LICENSE)
 applies, including its disclaimer of warranties and limitation of liability.
 
 The following distinctions explain the scope of the licensed contributions;
